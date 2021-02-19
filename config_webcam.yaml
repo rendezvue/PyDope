@@ -45,7 +45,8 @@ camera_settings: {
 
 # Config params for DOPE
 thresh_angle: 0.5
-thresh_map: 0.01
+#thresh_map: 0.01   # suggested by official DOPE
+thresh_map: 0.005   # for DOPE inference tutorial 
 sigma: 3
-# thresh_points: 0.01
-thresh_points : 0.005
+# thresh_points: 0.1 # suggested by official DOPE 
+thresh_points: 0.01  # for DOPE inference tutorial 
